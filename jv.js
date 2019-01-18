@@ -11,7 +11,7 @@ function loadDoc() {
 			myFunction(xhttp);
 		}
 	};
-	xhttp.open("GET", "http://localhost/ATI/data.xml", true);
+	xhttp.open("GET", "data.xml", true);
 	xhttp.send();
 }
 
